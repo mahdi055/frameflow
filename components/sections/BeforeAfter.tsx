@@ -44,8 +44,7 @@ export default function BeforeAfter() {
         {/* Slider */}
         <div
           ref={containerRef}
-          className="relative rounded-2xl overflow-hidden cursor-col-resize select-none border border-white/10 shadow-2xl"
-          style={{ aspectRatio: '16/9' }}
+          className="relative rounded-2xl overflow-hidden cursor-col-resize select-none border border-white/10 shadow-2xl aspect-[4/3] sm:aspect-video"
           onMouseDown={handleMouseDown}
           onMouseMove={handleMouseMove}
           onMouseUp={handleMouseUp}

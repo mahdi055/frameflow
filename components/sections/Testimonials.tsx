@@ -45,7 +45,7 @@ export default function Testimonials() {
   const row2 = TESTIMONIALS.slice(mid)
 
   return (
-    <section className="py-28 overflow-hidden">
+    <section className="py-16 sm:py-24 lg:py-28 overflow-hidden">
       {/* Header */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-14">
         <span className="inline-block px-3 py-1 rounded-full bg-violet-600/10 border border-violet-500/20 text-violet-300 text-xs font-medium mb-4 tracking-wide uppercase">

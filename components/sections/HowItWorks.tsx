@@ -10,7 +10,7 @@ const ICON_MAP: Record<string, React.ComponentType<{ className?: string }>> = {
 
 export default function HowItWorks() {
   return (
-    <section className="py-28 bg-[#0d0d12] border-y border-white/[0.04]">
+    <section className="py-16 sm:py-24 lg:py-28 bg-[#0d0d12] border-y border-white/[0.04]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <motion.div
@@ -18,7 +18,7 @@ export default function HowItWorks() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.55, ease: [0.16, 1, 0.3, 1] }}
-          className="text-center mb-20"
+          className="text-center mb-12 sm:mb-20"
         >
           <span className="inline-block px-3 py-1 rounded-full bg-violet-600/10 border border-violet-500/20 text-violet-300 text-xs font-medium mb-4 tracking-wide uppercase">
             How It Works

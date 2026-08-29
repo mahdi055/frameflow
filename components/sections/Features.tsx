@@ -20,7 +20,7 @@ const ACCENT_COLORS = [
 
 export default function Features() {
   return (
-    <section className="py-28 relative overflow-hidden">
+    <section className="py-16 sm:py-24 lg:py-28 relative overflow-hidden">
       {/* Subtle background */}
       <div className="absolute inset-0 pointer-events-none">
         <div className="ambient-blob w-96 h-96 top-0 right-1/4 opacity-[0.07]"
@@ -34,7 +34,7 @@ export default function Features() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.55, ease: [0.16, 1, 0.3, 1] }}
-          className="mb-16"
+          className="mb-10 sm:mb-16"
         >
           <span className="inline-block px-3 py-1 rounded-full bg-violet-600/10 border border-violet-500/20 text-violet-300 text-xs font-medium mb-4 tracking-wide uppercase">
             Features

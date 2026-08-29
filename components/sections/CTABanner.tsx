@@ -23,14 +23,14 @@ export default function CTABanner() {
             }} />
 
           {/* Content */}
-          <div className="relative z-10 px-8 sm:px-14 py-14 text-center">
+          <div className="relative z-10 px-6 sm:px-14 py-10 sm:py-14 text-center">
             <p className="text-violet-300/80 text-sm font-medium uppercase tracking-widest mb-4">
               Ready to ship?
             </p>
-            <h2 className="font-display text-3xl sm:text-4xl lg:text-[2.75rem] text-white leading-tight mb-4">
+            <h2 className="font-display text-2xl sm:text-4xl lg:text-[2.75rem] text-white leading-tight mb-4">
               Your videos deserve every format.
             </h2>
-            <p className="text-white/60 text-lg mb-8 max-w-md mx-auto leading-relaxed">
+            <p className="text-white/60 text-base sm:text-lg mb-8 max-w-md mx-auto leading-relaxed">
               Upload once. Get TikTok, Reels, Stories, and Shorts automatically.
             </p>
             <Link href="/signup">

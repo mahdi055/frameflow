@@ -7,7 +7,7 @@ import { ArrowRight } from 'lucide-react'
 
 export default function Hero() {
   return (
-    <section className="relative min-h-screen flex items-center overflow-hidden pt-16">
+    <section className="relative flex items-center overflow-hidden pt-16 sm:min-h-screen">
       {/* Ambient background */}
       <div className="absolute inset-0 z-0">
         <div className="absolute inset-0 bg-[#0a0a0f]" />
@@ -27,8 +27,8 @@ export default function Hero() {
         <div className="noise-overlay" />
       </div>
 
-      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-28">
-        <div className="grid lg:grid-cols-[1.1fr_0.9fr] gap-16 items-center">
+      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-12 pb-14 sm:pt-20 sm:pb-20 lg:py-28 w-full">
+        <div className="grid lg:grid-cols-[1.1fr_0.9fr] gap-8 lg:gap-16 items-center">
 
           {/* Left: Content */}
           <motion.div
@@ -40,23 +40,23 @@ export default function Hero() {
               initial={{ opacity: 0, y: 12 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 0.1 }}
-              className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-violet-600/10 border border-violet-500/20 text-violet-300 text-xs font-medium mb-8 tracking-wide uppercase"
+              className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-violet-600/10 border border-violet-500/20 text-violet-300 text-xs font-medium mb-6 tracking-wide uppercase"
             >
               <span className="w-1.5 h-1.5 rounded-full bg-violet-400 animate-pulse" />
               AI-Powered Video Reframing
             </motion.div>
 
-            <h1 className="font-display text-[3.25rem] sm:text-[4rem] lg:text-[4.5rem] text-white leading-[1.06] tracking-tight mb-6">
+            <h1 className="font-display text-[2.2rem] sm:text-[3.25rem] lg:text-[4.5rem] text-white leading-[1.1] tracking-tight mb-5">
               Reframe Any Video{' '}
               <span className="gradient-text">in Seconds</span>
             </h1>
 
-            <p className="text-lg text-white/50 leading-relaxed mb-9 max-w-[460px]" style={{ fontFamily: 'DM Sans, sans-serif' }}>
+            <p className="text-base sm:text-lg text-white/50 leading-relaxed mb-7 max-w-[460px]" style={{ fontFamily: 'DM Sans, sans-serif' }}>
               Upload once. Export for TikTok, Reels, Stories, Shorts, and LinkedIn all at once.
               AI tracks your subject so nothing important gets cropped.
             </p>
 
-            <div className="flex flex-col sm:flex-row gap-3 mb-10">
+            <div className="flex flex-col sm:flex-row gap-3 mb-8">
               <Link href="/signup">
                 <motion.button
                   whileHover={{ scale: 1.02 }}
@@ -79,9 +79,71 @@ export default function Hero() {
               </Link>
             </div>
 
+            {/* Mobile-only format preview */}
+            <div className="lg:hidden mb-8">
+              <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.6, delay: 0.3 }}
+                className="relative"
+              >
+                {/* Glow */}
+                <div className="absolute inset-0 opacity-25 blur-3xl pointer-events-none"
+                  style={{ background: 'radial-gradient(circle at 50% 60%, #7c3aed 0%, transparent 70%)' }} />
+
+                <div className="relative flex items-end justify-center gap-3 py-4">
+                  {/* 9:16 */}
+                  <div className="flex flex-col items-center gap-2">
+                    <div className="w-[88px] aspect-[9/16] rounded-2xl border-2 border-violet-500/60 overflow-hidden relative shadow-2xl shadow-violet-900/40">
+                      <Image src="/assets/hero-panel.webp" alt="9:16 TikTok format" fill className="object-cover scale-[1.65] object-center" />
+                      <div className="absolute inset-0 bg-black/20" />
+                      <div className="absolute top-2 left-1/2 -translate-x-1/2 px-2 py-0.5 rounded-full text-[9px] font-bold text-white whitespace-nowrap" style={{ background: '#7c3aeddd' }}>9:16</div>
+                      <div className="absolute bottom-0 inset-x-0 h-10 bg-gradient-to-t from-black/70 to-transparent" />
+                    </div>
+                    <span className="text-violet-300 text-[11px] font-medium">TikTok · Reels</span>
+                  </div>
+
+                  {/* 1:1 — center, slightly elevated */}
+                  <div className="flex flex-col items-center gap-2 -mt-4">
+                    <div className="relative">
+                      <div className="absolute -inset-1 rounded-2xl opacity-30 blur-md" style={{ background: '#4f46e5' }} />
+                      <div className="relative w-[88px] aspect-square rounded-2xl border-2 border-indigo-400/70 overflow-hidden shadow-2xl shadow-indigo-900/40">
+                        <Image src="/assets/hero-panel.webp" alt="1:1 Instagram format" fill className="object-cover scale-[1.3] object-center" />
+                        <div className="absolute inset-0 bg-black/20" />
+                        <div className="absolute top-2 left-1/2 -translate-x-1/2 px-2 py-0.5 rounded-full text-[9px] font-bold text-white" style={{ background: '#4f46e5dd' }}>1:1</div>
+                      </div>
+                    </div>
+                    <span className="text-indigo-300 text-[11px] font-medium">Instagram</span>
+                  </div>
+
+                  {/* 4:5 */}
+                  <div className="flex flex-col items-center gap-2">
+                    <div className="w-[88px] aspect-[4/5] rounded-2xl border-2 border-violet-500/35 overflow-hidden relative shadow-xl shadow-black/30">
+                      <Image src="/assets/hero-panel.webp" alt="4:5 Pinterest format" fill className="object-cover scale-[1.45] object-center" />
+                      <div className="absolute inset-0 bg-black/20" />
+                      <div className="absolute top-2 left-1/2 -translate-x-1/2 px-2 py-0.5 rounded-full text-[9px] font-bold text-white" style={{ background: '#7c3aedaa' }}>4:5</div>
+                    </div>
+                    <span className="text-white/45 text-[11px] font-medium">Pinterest</span>
+                  </div>
+                </div>
+
+                {/* Status badges */}
+                <div className="flex items-center justify-between px-4 mt-1">
+                  <div className="flex items-center gap-1.5 px-2.5 py-1.5 rounded-xl bg-[#111118] border border-white/[0.08]">
+                    <span className="text-[10px] text-white/40">Done in</span>
+                    <span className="text-[10px] text-white font-semibold">42s</span>
+                  </div>
+                  <div className="flex items-center gap-1.5 px-2.5 py-1.5 rounded-xl bg-[#111118] border border-green-500/25">
+                    <div className="w-1.5 h-1.5 rounded-full bg-green-400 animate-pulse" />
+                    <span className="text-[10px] text-green-400 font-medium">3 formats ready</span>
+                  </div>
+                </div>
+              </motion.div>
+            </div>
+
             {/* Social proof */}
-            <div className="flex items-center gap-4 pt-8 border-t border-white/[0.06]">
-              <div className="flex -space-x-2.5">
+            <div className="flex items-center gap-4 pt-6 border-t border-white/[0.06]">
+              <div className="flex -space-x-2.5 flex-shrink-0">
                 {['L', 'C', 'R', 'A'].map((letter, i) => (
                   <div
                     key={i}
@@ -98,7 +160,7 @@ export default function Hero() {
             </div>
           </motion.div>
 
-          {/* Right: Video Format Mockup with real photo */}
+          {/* Right: Desktop mockup */}
           <motion.div
             initial={{ opacity: 0, x: 32 }}
             animate={{ opacity: 1, x: 0 }}
@@ -106,9 +168,7 @@ export default function Hero() {
             className="hidden lg:block"
           >
             <div className="relative">
-              {/* Source video card */}
               <div className="surface-raised rounded-2xl overflow-hidden border border-white/[0.08] shadow-2xl">
-                {/* Card header */}
                 <div className="flex items-center justify-between px-4 py-3 border-b border-white/[0.06]">
                   <div className="flex items-center gap-2">
                     <div className="w-2 h-2 rounded-full bg-red-500/60" />
@@ -118,46 +178,24 @@ export default function Hero() {
                   <span className="text-[11px] text-white/30 font-medium tracking-wide">SOURCE VIDEO</span>
                   <div className="w-12" />
                 </div>
-
-                {/* 16:9 preview — real photo */}
                 <div className="relative aspect-video overflow-hidden">
-                  <Image
-                    src="/assets/hero-panel.webp"
-                    alt="Content creator — source video"
-                    fill
-                    className="object-cover object-center"
-                    priority
-                  />
-                  {/* Dark overlay for contrast */}
+                  <Image src="/assets/hero-panel.webp" alt="Content creator — source video" fill className="object-cover object-center" priority />
                   <div className="absolute inset-0 bg-[#0a0a0f]/30" />
-
-                  {/* AI crop indicator (dashed box) */}
-                  <div
-                    className="absolute border border-violet-400/80 rounded-sm"
-                    style={{ top: '10%', left: '33%', right: '33%', bottom: '8%', borderStyle: 'dashed' }}
-                  />
-                  {/* Corner handles */}
+                  <div className="absolute border border-violet-400/80 rounded-sm" style={{ top: '10%', left: '33%', right: '33%', bottom: '8%', borderStyle: 'dashed' }} />
                   <div className="absolute top-[10%] left-[33%] w-2.5 h-2.5 border-l-2 border-t-2 border-violet-400 rounded-tl" />
                   <div className="absolute top-[10%] right-[33%] w-2.5 h-2.5 border-r-2 border-t-2 border-violet-400 rounded-tr" />
                   <div className="absolute bottom-[8%] left-[33%] w-2.5 h-2.5 border-l-2 border-b-2 border-violet-400 rounded-bl" />
                   <div className="absolute bottom-[8%] right-[33%] w-2.5 h-2.5 border-r-2 border-b-2 border-violet-400 rounded-br" />
-                  {/* Scan line */}
-                  <div
-                    className="absolute inset-x-0 h-px bg-gradient-to-r from-transparent via-violet-400/80 to-transparent animate-scan-line"
-                    style={{ top: '35%' }}
-                  />
-                  {/* AI label */}
+                  <div className="absolute inset-x-0 h-px bg-gradient-to-r from-transparent via-violet-400/80 to-transparent animate-scan-line" style={{ top: '35%' }} />
                   <div className="absolute top-3 left-3 px-2 py-1 rounded-md bg-violet-600/30 border border-violet-500/40 backdrop-blur-sm">
                     <span className="text-[10px] text-violet-200 font-medium tracking-wide">AI TRACKING</span>
                   </div>
-                  {/* Resolution badge */}
                   <div className="absolute bottom-3 right-3 px-2 py-0.5 rounded bg-black/60 backdrop-blur-sm">
                     <span className="text-[10px] text-white/50">1920 × 1080</span>
                   </div>
                 </div>
               </div>
 
-              {/* Arrow and output label */}
               <div className="flex items-center justify-center my-4 gap-3">
                 <div className="h-px flex-1 bg-gradient-to-r from-transparent to-violet-500/30" />
                 <div className="px-3 py-1 rounded-full bg-violet-600/10 border border-violet-500/20">
@@ -166,19 +204,11 @@ export default function Hero() {
                 <div className="h-px flex-1 bg-gradient-to-l from-transparent to-violet-500/30" />
               </div>
 
-              {/* Output formats row — real photo, different crops */}
               <div className="grid grid-cols-3 gap-3">
-                {/* 9:16 */}
                 <div className="flex flex-col items-center gap-2">
                   <div className="w-full aspect-[9/16] surface rounded-xl border border-violet-500/40 overflow-hidden relative">
-                    <Image
-                      src="/assets/hero-panel.webp"
-                      alt="9:16 reframed"
-                      fill
-                      className="object-cover object-center scale-[1.6]"
-                    />
+                    <Image src="/assets/hero-panel.webp" alt="9:16 reframed" fill className="object-cover object-center scale-[1.6]" />
                     <div className="absolute inset-0 bg-[#0a0a0f]/20" />
-                    {/* TikTok-style bottom bar */}
                     <div className="absolute bottom-0 inset-x-0 h-8 bg-gradient-to-t from-black/70 to-transparent flex items-end pb-1.5 px-1.5">
                       <div className="flex gap-1">
                         <div className="w-4 h-0.5 rounded bg-white/25" />
@@ -186,45 +216,24 @@ export default function Hero() {
                       </div>
                     </div>
                   </div>
-                  <span className="inline-flex items-center px-2 py-0.5 rounded-full bg-violet-600/15 border border-violet-500/25 text-violet-300 text-[11px] font-medium">
-                    9:16
-                  </span>
+                  <span className="inline-flex items-center px-2 py-0.5 rounded-full bg-violet-600/15 border border-violet-500/25 text-violet-300 text-[11px] font-medium">9:16</span>
                 </div>
-
-                {/* 1:1 */}
                 <div className="flex flex-col items-center gap-2">
                   <div className="w-full aspect-square surface rounded-xl border border-white/[0.08] overflow-hidden relative">
-                    <Image
-                      src="/assets/hero-panel.webp"
-                      alt="1:1 reframed"
-                      fill
-                      className="object-cover object-center scale-[1.25]"
-                    />
+                    <Image src="/assets/hero-panel.webp" alt="1:1 reframed" fill className="object-cover object-center scale-[1.25]" />
                     <div className="absolute inset-0 bg-[#0a0a0f]/20" />
                   </div>
-                  <span className="inline-flex items-center px-2 py-0.5 rounded-full bg-indigo-600/15 border border-indigo-500/25 text-indigo-300 text-[11px] font-medium">
-                    1:1
-                  </span>
+                  <span className="inline-flex items-center px-2 py-0.5 rounded-full bg-indigo-600/15 border border-indigo-500/25 text-indigo-300 text-[11px] font-medium">1:1</span>
                 </div>
-
-                {/* 4:5 */}
                 <div className="flex flex-col items-center gap-2">
                   <div className="w-full aspect-[4/5] surface rounded-xl border border-white/[0.08] overflow-hidden relative">
-                    <Image
-                      src="/assets/hero-panel.webp"
-                      alt="4:5 reframed"
-                      fill
-                      className="object-cover object-center scale-[1.4]"
-                    />
+                    <Image src="/assets/hero-panel.webp" alt="4:5 reframed" fill className="object-cover object-center scale-[1.4]" />
                     <div className="absolute inset-0 bg-[#0a0a0f]/20" />
                   </div>
-                  <span className="inline-flex items-center px-2 py-0.5 rounded-full bg-white/[0.05] border border-white/[0.08] text-white/40 text-[11px] font-medium">
-                    4:5
-                  </span>
+                  <span className="inline-flex items-center px-2 py-0.5 rounded-full bg-white/[0.05] border border-white/[0.08] text-white/40 text-[11px] font-medium">4:5</span>
                 </div>
               </div>
 
-              {/* Processing indicator */}
               <motion.div
                 initial={{ opacity: 0, y: 8 }}
                 animate={{ opacity: 1, y: 0 }}
@@ -235,7 +244,6 @@ export default function Hero() {
                 <span className="text-[11px] text-green-400 font-medium">Processing</span>
               </motion.div>
 
-              {/* Time indicator */}
               <motion.div
                 initial={{ opacity: 0, y: 8 }}
                 animate={{ opacity: 1, y: 0 }}

@@ -57,7 +57,7 @@ const PLATFORMS = [
 
 export default function Platforms() {
   return (
-    <section className="py-28 relative overflow-hidden">
+    <section className="py-16 sm:py-24 lg:py-28 relative overflow-hidden">
       <div className="absolute inset-0 pointer-events-none">
         <div
           className="absolute top-1/2 right-0 w-[600px] h-[600px] -translate-y-1/2 opacity-[0.05]"
@@ -66,7 +66,7 @@ export default function Platforms() {
       </div>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex flex-col lg:flex-row gap-16 items-start">
+        <div className="flex flex-col lg:flex-row gap-8 lg:gap-16 items-start">
 
           {/* Left sticky header */}
           <motion.div

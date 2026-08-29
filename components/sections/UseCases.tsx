@@ -78,7 +78,7 @@ export default function UseCases() {
   const current = CASES.find(c => c.id === active)!
 
   return (
-    <section className="py-28 bg-[#0d0d14] relative overflow-hidden">
+    <section className="py-16 sm:py-24 lg:py-28 bg-[#0d0d14] relative overflow-hidden">
       <div className="absolute inset-0 pointer-events-none">
         <div
           className="absolute -top-40 right-0 w-[600px] h-[600px] opacity-[0.06]"
@@ -112,19 +112,19 @@ export default function UseCases() {
         </motion.div>
 
         {/* Tab pill selector */}
-        <div className="flex justify-center mb-12">
-          <div className="inline-flex p-1 rounded-2xl bg-[#111118] border border-white/[0.07] gap-1">
+        <div className="flex justify-center mb-10 sm:mb-12 -mx-4 px-4 overflow-x-auto">
+          <div className="inline-flex p-1 rounded-2xl bg-[#111118] border border-white/[0.07] gap-1 min-w-max">
             {CASES.map(c => (
               <button
                 key={c.id}
                 onClick={() => setActive(c.id)}
-                className={`flex items-center gap-2 px-5 py-2.5 rounded-xl text-sm font-medium transition-all duration-200 cursor-pointer ${
+                className={`flex items-center gap-1.5 sm:gap-2 px-4 sm:px-5 py-2.5 rounded-xl text-xs sm:text-sm font-medium transition-all duration-200 cursor-pointer whitespace-nowrap ${
                   active === c.id
                     ? 'bg-violet-600 text-white shadow-lg shadow-violet-600/25'
                     : 'text-white/40 hover:text-white/70'
                 }`}
               >
-                <c.Icon className="w-4 h-4" />
+                <c.Icon className="w-3.5 h-3.5 sm:w-4 sm:h-4 flex-shrink-0" />
                 {c.label}
               </button>
             ))}
@@ -139,7 +139,7 @@ export default function UseCases() {
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -8 }}
             transition={{ duration: 0.35, ease: [0.16, 1, 0.3, 1] }}
-            className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center"
+            className="grid lg:grid-cols-2 gap-8 lg:gap-16 items-center"
           >
             {/* Left: text */}
             <div>

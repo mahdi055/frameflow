@@ -133,7 +133,7 @@ export default function FormatPreview() {
   const format = FORMATS.find(f => f.id === active)!
 
   return (
-    <section className="py-28 relative overflow-hidden">
+    <section className="py-16 sm:py-24 lg:py-28 relative overflow-hidden">
       {/* Background */}
       <div className="absolute inset-0 pointer-events-none">
         <div className="ambient-blob w-96 h-96 bottom-0 left-1/2 -translate-x-1/2 opacity-[0.08]"
@@ -161,7 +161,7 @@ export default function FormatPreview() {
           </p>
         </motion.div>
 
-        <div className="flex flex-col lg:flex-row items-center gap-16">
+        <div className="flex flex-col lg:flex-row items-center gap-10 lg:gap-16">
           {/* Left: Tab selector + description */}
           <div className="w-full lg:w-[340px] flex-shrink-0">
             <div className="space-y-2.5 mb-8">
