@@ -1,0 +1,40 @@
+{
+  "source": "pexels",
+  "type": "photo",
+  "id": 2531553,
+  "url": "https://www.pexels.com/photo/photo-of-man-wearing-eyeglasses-2531553/",
+  "download_url": "https://images.pexels.com/photos/2531553/pexels-photo-2531553.jpeg?auto=compress&cs=tinysrgb&h=350",
+  "downloaded_size": "medium",
+  "width": 3553,
+  "height": 3553,
+  "photographer": "R\u00f4 Acunha",
+  "photographer_url": "https://www.pexels.com/@roacunha",
+  "photographer_id": 1275988,
+  "avg_color": "#625545",
+  "alt": "Young man with glasses and beard smiling in a colorful autumn forest.",
+  "license": "Pexels License - Free for personal and commercial use",
+  "attribution": "Photo by R\u00f4 Acunha on Pexels",
+  "downloaded_at": "2026-08-28T00:00:00Z",
+  "api_response": {
+    "id": 2531553,
+    "width": 3553,
+    "height": 3553,
+    "url": "https://www.pexels.com/photo/photo-of-man-wearing-eyeglasses-2531553/",
+    "photographer": "R\u00f4 Acunha",
+    "photographer_url": "https://www.pexels.com/@roacunha",
+    "photographer_id": 1275988,
+    "avg_color": "#625545",
+    "src": {
+      "original": "https://images.pexels.com/photos/2531553/pexels-photo-2531553.jpeg",
+      "large2x": "https://images.pexels.com/photos/2531553/pexels-photo-2531553.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "large": "https://images.pexels.com/photos/2531553/pexels-photo-2531553.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+      "medium": "https://images.pexels.com/photos/2531553/pexels-photo-2531553.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "small": "https://images.pexels.com/photos/2531553/pexels-photo-2531553.jpeg?auto=compress&cs=tinysrgb&h=130",
+      "portrait": "https://images.pexels.com/photos/2531553/pexels-photo-2531553.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+      "landscape": "https://images.pexels.com/photos/2531553/pexels-photo-2531553.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+      "tiny": "https://images.pexels.com/photos/2531553/pexels-photo-2531553.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280"
+    },
+    "liked": false,
+    "alt": "Young man with glasses and beard smiling in a colorful autumn forest."
+  }
+}

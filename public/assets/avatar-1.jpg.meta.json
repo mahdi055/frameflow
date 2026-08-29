@@ -1,0 +1,40 @@
+{
+  "source": "pexels",
+  "type": "photo",
+  "id": 16160801,
+  "url": "https://www.pexels.com/photo/portrait-of-a-kid-smiling-16160801/",
+  "download_url": "https://images.pexels.com/photos/16160801/pexels-photo-16160801.jpeg?auto=compress&cs=tinysrgb&h=350",
+  "downloaded_size": "medium",
+  "width": 3157,
+  "height": 3157,
+  "photographer": "pessoas uem",
+  "photographer_url": "https://www.pexels.com/@pessoas-uem-503045317",
+  "photographer_id": 503045317,
+  "avg_color": "#5E5A51",
+  "alt": "Smiling young person with glasses in a casual outdoor urban scene.",
+  "license": "Pexels License - Free for personal and commercial use",
+  "attribution": "Photo by pessoas uem on Pexels",
+  "downloaded_at": "2026-08-28T00:00:00Z",
+  "api_response": {
+    "id": 16160801,
+    "width": 3157,
+    "height": 3157,
+    "url": "https://www.pexels.com/photo/portrait-of-a-kid-smiling-16160801/",
+    "photographer": "pessoas uem",
+    "photographer_url": "https://www.pexels.com/@pessoas-uem-503045317",
+    "photographer_id": 503045317,
+    "avg_color": "#5E5A51",
+    "src": {
+      "original": "https://images.pexels.com/photos/16160801/pexels-photo-16160801.jpeg",
+      "large2x": "https://images.pexels.com/photos/16160801/pexels-photo-16160801.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "large": "https://images.pexels.com/photos/16160801/pexels-photo-16160801.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+      "medium": "https://images.pexels.com/photos/16160801/pexels-photo-16160801.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "small": "https://images.pexels.com/photos/16160801/pexels-photo-16160801.jpeg?auto=compress&cs=tinysrgb&h=130",
+      "portrait": "https://images.pexels.com/photos/16160801/pexels-photo-16160801.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+      "landscape": "https://images.pexels.com/photos/16160801/pexels-photo-16160801.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+      "tiny": "https://images.pexels.com/photos/16160801/pexels-photo-16160801.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280"
+    },
+    "liked": false,
+    "alt": "Smiling young person with glasses in a casual outdoor urban scene."
+  }
+}

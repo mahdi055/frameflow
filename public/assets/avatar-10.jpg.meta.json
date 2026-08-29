@@ -1,0 +1,40 @@
+{
+  "source": "pexels",
+  "type": "photo",
+  "id": 19244211,
+  "url": "https://www.pexels.com/photo/man-holding-a-smartphone-on-a-camera-stabilizer-19244211/",
+  "download_url": "https://images.pexels.com/photos/19244211/pexels-photo-19244211.jpeg?auto=compress&cs=tinysrgb&h=350",
+  "downloaded_size": "medium",
+  "width": 3456,
+  "height": 3456,
+  "photographer": "Vladislav Anchuk",
+  "photographer_url": "https://www.pexels.com/@anchukk",
+  "photographer_id": 295719065,
+  "avg_color": "#2B2817",
+  "alt": "Smiling young man holding a gimbal in Aurich, Germany, with a casual style.",
+  "license": "Pexels License - Free for personal and commercial use",
+  "attribution": "Photo by Vladislav Anchuk on Pexels",
+  "downloaded_at": "2026-08-28T00:00:00Z",
+  "api_response": {
+    "id": 19244211,
+    "width": 3456,
+    "height": 3456,
+    "url": "https://www.pexels.com/photo/man-holding-a-smartphone-on-a-camera-stabilizer-19244211/",
+    "photographer": "Vladislav Anchuk",
+    "photographer_url": "https://www.pexels.com/@anchukk",
+    "photographer_id": 295719065,
+    "avg_color": "#2B2817",
+    "src": {
+      "original": "https://images.pexels.com/photos/19244211/pexels-photo-19244211.jpeg",
+      "large2x": "https://images.pexels.com/photos/19244211/pexels-photo-19244211.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "large": "https://images.pexels.com/photos/19244211/pexels-photo-19244211.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+      "medium": "https://images.pexels.com/photos/19244211/pexels-photo-19244211.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "small": "https://images.pexels.com/photos/19244211/pexels-photo-19244211.jpeg?auto=compress&cs=tinysrgb&h=130",
+      "portrait": "https://images.pexels.com/photos/19244211/pexels-photo-19244211.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+      "landscape": "https://images.pexels.com/photos/19244211/pexels-photo-19244211.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+      "tiny": "https://images.pexels.com/photos/19244211/pexels-photo-19244211.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280"
+    },
+    "liked": false,
+    "alt": "Smiling young man holding a gimbal in Aurich, Germany, with a casual style."
+  }
+}

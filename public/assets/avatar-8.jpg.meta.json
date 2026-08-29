@@ -1,0 +1,40 @@
+{
+  "source": "pexels",
+  "type": "photo",
+  "id": 33680674,
+  "url": "https://www.pexels.com/photo/dramatic-portrait-of-a-mature-man-33680674/",
+  "download_url": "https://images.pexels.com/photos/33680674/pexels-photo-33680674.jpeg?auto=compress&cs=tinysrgb&h=350",
+  "downloaded_size": "medium",
+  "width": 4265,
+  "height": 4265,
+  "photographer": "Alvaro Balderas",
+  "photographer_url": "https://www.pexels.com/@alvarobalderas",
+  "photographer_id": 975375859,
+  "avg_color": "#463E3B",
+  "alt": "Sepia-toned portrait of a serious bald man with a mustache.",
+  "license": "Pexels License - Free for personal and commercial use",
+  "attribution": "Photo by Alvaro Balderas on Pexels",
+  "downloaded_at": "2026-08-28T00:00:00Z",
+  "api_response": {
+    "id": 33680674,
+    "width": 4265,
+    "height": 4265,
+    "url": "https://www.pexels.com/photo/dramatic-portrait-of-a-mature-man-33680674/",
+    "photographer": "Alvaro Balderas",
+    "photographer_url": "https://www.pexels.com/@alvarobalderas",
+    "photographer_id": 975375859,
+    "avg_color": "#463E3B",
+    "src": {
+      "original": "https://images.pexels.com/photos/33680674/pexels-photo-33680674.jpeg",
+      "large2x": "https://images.pexels.com/photos/33680674/pexels-photo-33680674.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "large": "https://images.pexels.com/photos/33680674/pexels-photo-33680674.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+      "medium": "https://images.pexels.com/photos/33680674/pexels-photo-33680674.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "small": "https://images.pexels.com/photos/33680674/pexels-photo-33680674.jpeg?auto=compress&cs=tinysrgb&h=130",
+      "portrait": "https://images.pexels.com/photos/33680674/pexels-photo-33680674.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+      "landscape": "https://images.pexels.com/photos/33680674/pexels-photo-33680674.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+      "tiny": "https://images.pexels.com/photos/33680674/pexels-photo-33680674.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280"
+    },
+    "liked": false,
+    "alt": "Sepia-toned portrait of a serious bald man with a mustache."
+  }
+}

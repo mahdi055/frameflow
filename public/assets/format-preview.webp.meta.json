@@ -1,0 +1,40 @@
+{
+  "source": "pexels",
+  "type": "photo",
+  "id": 7514831,
+  "url": "https://www.pexels.com/photo/a-woman-getting-ready-to-record-a-video-vlog-7514831/",
+  "download_url": "https://images.pexels.com/photos/7514831/pexels-photo-7514831.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+  "downloaded_size": "portrait",
+  "width": 800,
+  "height": 1200,
+  "photographer": "Kampus Production",
+  "photographer_url": "https://www.pexels.com/@kampus",
+  "photographer_id": 3649784,
+  "avg_color": "#564E49",
+  "alt": "Portrait of a woman streaming online with professional ring light and camera setup.",
+  "license": "Pexels License - Free for personal and commercial use",
+  "attribution": "Photo by Kampus Production on Pexels",
+  "downloaded_at": "2026-08-28T14:57:44.396788Z",
+  "api_response": {
+    "id": 7514831,
+    "width": 4016,
+    "height": 6016,
+    "url": "https://www.pexels.com/photo/a-woman-getting-ready-to-record-a-video-vlog-7514831/",
+    "photographer": "Kampus Production",
+    "photographer_url": "https://www.pexels.com/@kampus",
+    "photographer_id": 3649784,
+    "avg_color": "#564E49",
+    "src": {
+      "original": "https://images.pexels.com/photos/7514831/pexels-photo-7514831.jpeg",
+      "large2x": "https://images.pexels.com/photos/7514831/pexels-photo-7514831.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "large": "https://images.pexels.com/photos/7514831/pexels-photo-7514831.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+      "medium": "https://images.pexels.com/photos/7514831/pexels-photo-7514831.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "small": "https://images.pexels.com/photos/7514831/pexels-photo-7514831.jpeg?auto=compress&cs=tinysrgb&h=130",
+      "portrait": "https://images.pexels.com/photos/7514831/pexels-photo-7514831.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+      "landscape": "https://images.pexels.com/photos/7514831/pexels-photo-7514831.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+      "tiny": "https://images.pexels.com/photos/7514831/pexels-photo-7514831.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280"
+    },
+    "liked": false,
+    "alt": "Portrait of a woman streaming online with professional ring light and camera setup."
+  }
+}

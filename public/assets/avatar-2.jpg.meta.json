@@ -1,0 +1,40 @@
+{
+  "source": "pexels",
+  "type": "photo",
+  "id": 5308640,
+  "url": "https://www.pexels.com/photo/close-up-of-bearded-man-5308640/",
+  "download_url": "https://images.pexels.com/photos/5308640/pexels-photo-5308640.jpeg?auto=compress&cs=tinysrgb&h=350",
+  "downloaded_size": "medium",
+  "width": 2825,
+  "height": 2825,
+  "photographer": "John Stephenson",
+  "photographer_url": "https://www.pexels.com/@john-stephenson-1058877",
+  "photographer_id": 1058877,
+  "avg_color": "#482F2A",
+  "alt": "Close-up portrait of a young man in a black blazer and red shirt, smiling at the camera.",
+  "license": "Pexels License - Free for personal and commercial use",
+  "attribution": "Photo by John Stephenson on Pexels",
+  "downloaded_at": "2026-08-28T00:00:00Z",
+  "api_response": {
+    "id": 5308640,
+    "width": 2825,
+    "height": 2825,
+    "url": "https://www.pexels.com/photo/close-up-of-bearded-man-5308640/",
+    "photographer": "John Stephenson",
+    "photographer_url": "https://www.pexels.com/@john-stephenson-1058877",
+    "photographer_id": 1058877,
+    "avg_color": "#482F2A",
+    "src": {
+      "original": "https://images.pexels.com/photos/5308640/pexels-photo-5308640.jpeg",
+      "large2x": "https://images.pexels.com/photos/5308640/pexels-photo-5308640.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "large": "https://images.pexels.com/photos/5308640/pexels-photo-5308640.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+      "medium": "https://images.pexels.com/photos/5308640/pexels-photo-5308640.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "small": "https://images.pexels.com/photos/5308640/pexels-photo-5308640.jpeg?auto=compress&cs=tinysrgb&h=130",
+      "portrait": "https://images.pexels.com/photos/5308640/pexels-photo-5308640.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+      "landscape": "https://images.pexels.com/photos/5308640/pexels-photo-5308640.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+      "tiny": "https://images.pexels.com/photos/5308640/pexels-photo-5308640.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280"
+    },
+    "liked": false,
+    "alt": "Close-up portrait of a young man in a black blazer and red shirt, smiling at the camera."
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "source": "pexels",
+  "type": "photo",
+  "id": 36917952,
+  "url": "https://www.pexels.com/photo/man-recording-video-in-professional-studio-setup-36917952/",
+  "download_url": "https://images.pexels.com/photos/36917952/pexels-photo-36917952.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+  "downloaded_size": "large2x",
+  "width": 6000,
+  "height": 3376,
+  "photographer": "Ben Khatry",
+  "photographer_url": "https://www.pexels.com/@ben-khatry-430197437",
+  "photographer_id": 430197437,
+  "avg_color": "#2A2424",
+  "alt": "Young man recording a video in a professional studio with lighting and camera equipment.",
+  "license": "Pexels License - Free for personal and commercial use",
+  "attribution": "Photo by Ben Khatry on Pexels",
+  "downloaded_at": "2026-08-28T00:00:00Z",
+  "api_response": {
+    "id": 36917952,
+    "width": 6000,
+    "height": 3376,
+    "url": "https://www.pexels.com/photo/man-recording-video-in-professional-studio-setup-36917952/",
+    "photographer": "Ben Khatry",
+    "photographer_url": "https://www.pexels.com/@ben-khatry-430197437",
+    "photographer_id": 430197437,
+    "avg_color": "#2A2424",
+    "src": {
+      "original": "https://images.pexels.com/photos/36917952/pexels-photo-36917952.jpeg",
+      "large2x": "https://images.pexels.com/photos/36917952/pexels-photo-36917952.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "large": "https://images.pexels.com/photos/36917952/pexels-photo-36917952.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+      "medium": "https://images.pexels.com/photos/36917952/pexels-photo-36917952.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "small": "https://images.pexels.com/photos/36917952/pexels-photo-36917952.jpeg?auto=compress&cs=tinysrgb&h=130",
+      "portrait": "https://images.pexels.com/photos/36917952/pexels-photo-36917952.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+      "landscape": "https://images.pexels.com/photos/36917952/pexels-photo-36917952.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+      "tiny": "https://images.pexels.com/photos/36917952/pexels-photo-36917952.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280"
+    },
+    "liked": false,
+    "alt": "Young man recording a video in a professional studio with lighting and camera equipment."
+  }
+}

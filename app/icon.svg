@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <title>FrameFlow</title>
+  <defs>
+    <linearGradient id="p" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#a855f7"/>
+      <stop offset="1" stop-color="#4338ca"/>
+    </linearGradient>
+    <linearGradient id="gl" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#fff" stop-opacity=".13"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="64" height="64" rx="14" fill="#0c0a1e"/>
+
+  <!-- Landscape frame (source video — 16:9) -->
+  <rect x="7" y="23" width="37" height="20" rx="3.5"
+        fill="#7c3aed" fill-opacity=".10"
+        stroke="#9333ea" stroke-opacity=".60" stroke-width="1.5"/>
+
+  <!-- Portrait frame (reframed output — 9:16) -->
+  <rect x="28" y="10" width="21" height="42" rx="5" fill="url(#p)"/>
+
+  <!-- Glint highlight -->
+  <rect x="28" y="10" width="21" height="13.5" rx="5" fill="url(#gl)"/>
+</svg>

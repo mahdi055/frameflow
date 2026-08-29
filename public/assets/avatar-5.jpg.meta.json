@@ -1,0 +1,40 @@
+{
+  "source": "pexels",
+  "type": "photo",
+  "id": 33369429,
+  "url": "https://www.pexels.com/photo/sophisticated-woman-in-black-seated-on-a-stool-33369429/",
+  "download_url": "https://images.pexels.com/photos/33369429/pexels-photo-33369429.jpeg?auto=compress&cs=tinysrgb&h=350",
+  "downloaded_size": "medium",
+  "width": 7102,
+  "height": 7102,
+  "photographer": "Jocelyn Espinoza",
+  "photographer_url": "https://www.pexels.com/@jocelyn-espinoza-241208092",
+  "photographer_id": 241208092,
+  "avg_color": "#939393",
+  "alt": "Elegant woman in black attire sitting on a stool against a gray studio background.",
+  "license": "Pexels License - Free for personal and commercial use",
+  "attribution": "Photo by Jocelyn Espinoza on Pexels",
+  "downloaded_at": "2026-08-28T00:00:00Z",
+  "api_response": {
+    "id": 33369429,
+    "width": 7102,
+    "height": 7102,
+    "url": "https://www.pexels.com/photo/sophisticated-woman-in-black-seated-on-a-stool-33369429/",
+    "photographer": "Jocelyn Espinoza",
+    "photographer_url": "https://www.pexels.com/@jocelyn-espinoza-241208092",
+    "photographer_id": 241208092,
+    "avg_color": "#939393",
+    "src": {
+      "original": "https://images.pexels.com/photos/33369429/pexels-photo-33369429.jpeg",
+      "large2x": "https://images.pexels.com/photos/33369429/pexels-photo-33369429.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "large": "https://images.pexels.com/photos/33369429/pexels-photo-33369429.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+      "medium": "https://images.pexels.com/photos/33369429/pexels-photo-33369429.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "small": "https://images.pexels.com/photos/33369429/pexels-photo-33369429.jpeg?auto=compress&cs=tinysrgb&h=130",
+      "portrait": "https://images.pexels.com/photos/33369429/pexels-photo-33369429.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+      "landscape": "https://images.pexels.com/photos/33369429/pexels-photo-33369429.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+      "tiny": "https://images.pexels.com/photos/33369429/pexels-photo-33369429.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280"
+    },
+    "liked": false,
+    "alt": "Elegant woman in black attire sitting on a stool against a gray studio background."
+  }
+}

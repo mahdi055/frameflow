@@ -1,0 +1,40 @@
+{
+  "source": "pexels",
+  "type": "photo",
+  "id": 7634159,
+  "url": "https://www.pexels.com/photo/social-media-applications-in-a-smartphone-7634159/",
+  "download_url": "https://images.pexels.com/photos/7634159/pexels-photo-7634159.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+  "downloaded_size": "large2x",
+  "width": 5184,
+  "height": 3456,
+  "photographer": "Bastian Riccardi",
+  "photographer_url": "https://www.pexels.com/@shutter-speed",
+  "photographer_id": 27736,
+  "avg_color": "#695A51",
+  "alt": "Smartphone displaying popular social media apps like Instagram, Pinterest, Twitter, and Snapchat.",
+  "license": "Pexels License - Free for personal and commercial use",
+  "attribution": "Photo by Bastian Riccardi on Pexels",
+  "downloaded_at": "2026-08-28T00:00:00Z",
+  "api_response": {
+    "id": 7634159,
+    "width": 5184,
+    "height": 3456,
+    "url": "https://www.pexels.com/photo/social-media-applications-in-a-smartphone-7634159/",
+    "photographer": "Bastian Riccardi",
+    "photographer_url": "https://www.pexels.com/@shutter-speed",
+    "photographer_id": 27736,
+    "avg_color": "#695A51",
+    "src": {
+      "original": "https://images.pexels.com/photos/7634159/pexels-photo-7634159.jpeg",
+      "large2x": "https://images.pexels.com/photos/7634159/pexels-photo-7634159.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "large": "https://images.pexels.com/photos/7634159/pexels-photo-7634159.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+      "medium": "https://images.pexels.com/photos/7634159/pexels-photo-7634159.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "small": "https://images.pexels.com/photos/7634159/pexels-photo-7634159.jpeg?auto=compress&cs=tinysrgb&h=130",
+      "portrait": "https://images.pexels.com/photos/7634159/pexels-photo-7634159.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+      "landscape": "https://images.pexels.com/photos/7634159/pexels-photo-7634159.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+      "tiny": "https://images.pexels.com/photos/7634159/pexels-photo-7634159.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280"
+    },
+    "liked": false,
+    "alt": "Smartphone displaying popular social media apps like Instagram, Pinterest, Twitter, and Snapchat."
+  }
+}

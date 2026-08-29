@@ -1,0 +1,40 @@
+{
+  "source": "pexels",
+  "type": "photo",
+  "id": 4549411,
+  "url": "https://www.pexels.com/photo/person-taking-picture-of-devices-4549411/",
+  "download_url": "https://images.pexels.com/photos/4549411/pexels-photo-4549411.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+  "downloaded_size": "large2x",
+  "width": 6720,
+  "height": 4480,
+  "photographer": "Plann",
+  "photographer_url": "https://www.pexels.com/@plann-2999237",
+  "photographer_id": 2999237,
+  "avg_color": "#B4B5BB",
+  "alt": "Person using vintage camera with smartphone and laptop in creative setup.",
+  "license": "Pexels License - Free for personal and commercial use",
+  "attribution": "Photo by Plann on Pexels",
+  "downloaded_at": "2026-08-28T00:00:00Z",
+  "api_response": {
+    "id": 4549411,
+    "width": 6720,
+    "height": 4480,
+    "url": "https://www.pexels.com/photo/person-taking-picture-of-devices-4549411/",
+    "photographer": "Plann",
+    "photographer_url": "https://www.pexels.com/@plann-2999237",
+    "photographer_id": 2999237,
+    "avg_color": "#B4B5BB",
+    "src": {
+      "original": "https://images.pexels.com/photos/4549411/pexels-photo-4549411.jpeg",
+      "large2x": "https://images.pexels.com/photos/4549411/pexels-photo-4549411.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "large": "https://images.pexels.com/photos/4549411/pexels-photo-4549411.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+      "medium": "https://images.pexels.com/photos/4549411/pexels-photo-4549411.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "small": "https://images.pexels.com/photos/4549411/pexels-photo-4549411.jpeg?auto=compress&cs=tinysrgb&h=130",
+      "portrait": "https://images.pexels.com/photos/4549411/pexels-photo-4549411.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+      "landscape": "https://images.pexels.com/photos/4549411/pexels-photo-4549411.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+      "tiny": "https://images.pexels.com/photos/4549411/pexels-photo-4549411.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280"
+    },
+    "liked": false,
+    "alt": "Person using vintage camera with smartphone and laptop in creative setup."
+  }
+}

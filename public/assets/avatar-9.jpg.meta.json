@@ -1,0 +1,40 @@
+{
+  "source": "pexels",
+  "type": "photo",
+  "id": 7073125,
+  "url": "https://www.pexels.com/photo/contemplative-woman-in-cozy-cafe-setting-7073125/",
+  "download_url": "https://images.pexels.com/photos/7073125/pexels-photo-7073125.jpeg?auto=compress&cs=tinysrgb&h=350",
+  "downloaded_size": "medium",
+  "width": 3024,
+  "height": 3024,
+  "photographer": "Valeri Mak",
+  "photographer_url": "https://www.pexels.com/@valeri-mak-2319397",
+  "photographer_id": 2319397,
+  "avg_color": "#322C25",
+  "alt": "A woman in a hoodie sits at a cafe table with a striped cup, deep in thought.",
+  "license": "Pexels License - Free for personal and commercial use",
+  "attribution": "Photo by Valeri Mak on Pexels",
+  "downloaded_at": "2026-08-28T00:00:00Z",
+  "api_response": {
+    "id": 7073125,
+    "width": 3024,
+    "height": 3024,
+    "url": "https://www.pexels.com/photo/contemplative-woman-in-cozy-cafe-setting-7073125/",
+    "photographer": "Valeri Mak",
+    "photographer_url": "https://www.pexels.com/@valeri-mak-2319397",
+    "photographer_id": 2319397,
+    "avg_color": "#322C25",
+    "src": {
+      "original": "https://images.pexels.com/photos/7073125/pexels-photo-7073125.jpeg",
+      "large2x": "https://images.pexels.com/photos/7073125/pexels-photo-7073125.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "large": "https://images.pexels.com/photos/7073125/pexels-photo-7073125.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+      "medium": "https://images.pexels.com/photos/7073125/pexels-photo-7073125.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "small": "https://images.pexels.com/photos/7073125/pexels-photo-7073125.jpeg?auto=compress&cs=tinysrgb&h=130",
+      "portrait": "https://images.pexels.com/photos/7073125/pexels-photo-7073125.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+      "landscape": "https://images.pexels.com/photos/7073125/pexels-photo-7073125.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+      "tiny": "https://images.pexels.com/photos/7073125/pexels-photo-7073125.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280"
+    },
+    "liked": false,
+    "alt": "A woman in a hoodie sits at a cafe table with a striped cup, deep in thought."
+  }
+}
